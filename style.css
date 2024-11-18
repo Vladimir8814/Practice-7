@@ -1,0 +1,39 @@
+body {
+    background-color: #ffffff;
+ font-family: "Arial", sans-serif;
+ font-size: 25px;
+ font-weight: normal; 
+}
+
+.menu {
+    text-align : center;
+    Width: 1200px;
+    Height: 142px;
+    Top: 30px;
+    Left: 200px;
+}
+.background{
+    Width:200px;
+    Height: 200px;
+    Top: 200px;
+}
+.image-text-container {
+    position: relative;
+    display: inline-block;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  }
+  .h1{
+  text-align : center;
+  Width: 704px;
+  Height: 96px;
+  Top: 850px;
+  Left: 448px;
+  }
