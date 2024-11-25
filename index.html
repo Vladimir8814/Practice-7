@@ -7,27 +7,248 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class ="menu">
-            <img src="image/icons1 heder.jpg">
-            <button>Black</button>
-            <button>Green</button>
-            <button>White</button>
-            <button>Oolong</button>
-            <button>Pu-erh</button>
-            <img src="image/icon2heder.jpg">
-            <img src="image/icon3heder.jpg">
-            <img src="image/icon4heder.jpg">
+    
+    <header>                                                <!--Шапка сайта  с навигацией и меню-->
+        <nav class="top-menu">
+        
+                     <a class="navbar-logo" href=""><img src="image/icons1 heder.jpg"></a>
+        
+                        <ul class ="menu-main">
+                        <li><a href="">Black</a></li>
+                        <li><a href="">Green</a></li>
+                        <li><a href="">White</a></li>
+                        <li><a href="">White</a></li>
+                        <li><a href="">Pu-erh</a></li>
+                        <li><a href=""><img src="image/icon2heder.jpg"></a></li>
+                        <li><a href=""><img src="image/icon3heder.jpg"></a></li>
+                        <li><a href=""><img src="image/icon4heder.jpg"></a></li>
+                    </u>
+    </nav>
+                                                                     <!--Надпись с задним фоном-->
+    <nav class="picture">
+        <img src="image/Heder background.jpg" alt="">
+        <div class="text">A cup of tea is a moment of calm in the chaos of life<br>
+            Wide selection of high-quality teas from all over the world, carefully curated by tea experts.
         </div>
-            </header>
-            <main>
-                <div class="image-text-container">
-                 <img src="image/Heder background.jpg" alt="">
-                    <div class="text-overlay">A cup of tea is a moment of calm in the chaos of life
-                    </div>
-        <body>
+    </nav>
+    </header>
+                                                                    <!--Основной контент(Каталог чайя)-->
+
+      <main>
+                <div class="catalog_content">
             <h1>"Tea is not just a drink,it's a way of life and <br/>
-                a way to connect with our loved ones."</h1>
+                a way to connect with our loved ones."
+            </h1>
+         <div class ="Collections">
+
+              <h2>Explore our Collections</h2>
+             <img src="image/black.png">
+             <img src="image/green.png">
+             <img src="image/white.png">
+             <img src="image/oolong.png">
+             <img src="image/pu-erh.png">
+         </div>
+        </div>
+                                            <!--Секция отзывов клиентов--->
+        <section class ="about_page_comments">
+                                                    
+             <div class="container">
+                 <div class="title">What our Clients say</div>
+                                                                        <!--Первый отзыв-->
+            <div class="about_page_comments__block">
+                <div class="about_page_comments__text"> text</div>
+                    <div>
+                        <div class="about_page_comments__name">NAME</div>
+                    </div>
+        </div>
+                                                                        <!--Второй отзыв-->
+        <div class="about_page_comments__block">
+            <div class="about_page_comments__text"> text</div>
+            <div>
+                <div class="about_page_comments__name">NAME</div>
+            </div>
+        </div>
+                                                                               <!--Третий отзыв-->    
+    <div class="about_page_comments__block">
+        <div class="about_page_comments__text"> text</div>
+        <div>
+            <div class="about_page_comments__name">NAME</div>
+        </div>
+    </div>
+                                                                                         <!--Четвёртый отзыв-->
+<div class="about_page_comments__block">
+    <div class="about_page_comments__text"> text</div>
+    <div>
+        <div class="about_page_comments__name">NAME</div>
+    </div>
+</div>
+</div>
+        </section>
+                                                            <!--Секция блога о чае-->
+<section class ="tea_blog" >
+    <div class="container">
+        <div class="title"> Our Tea Blog</div>
+        <div class="article_index_list">
+                                                                     <!--1Статья-->
+            <div class="tea_content_block">
+                <div class="tea_img">
+                    <img src="image/Blog1.png">
+                </div>
+                <p class ="tea_text">
+                    Tea Time Travels: Funny Moments from Around the World
+                </p>
+                <p class="author">by Robinson Crusoe</p>
+                <a href="">Read</a>
+            </div>
+                                                                <!--2Статья-->
+            <div class="tea_content_block">
+                <div class="tea_img">
+                    <img src="image/Blog2.png">
+                </div>
+                <p class ="tea_text">
+                    Tea-rific Tales: Hilarious Stories from Tea Lovers </p>
+                <p class="author">by Casper the Friendly Ghost</p>
+                <a href="">Read</a>
+            </div>
+                                                                    <!--3Статья-->
+            <div class="tea_content_block">
+                <div class="tea_img">
+                    <img src="image/Blog3.png">
+                </div>
+                <p class ="tea_text">The Role of Tea in Mental Health </p>
+                <p class="author">by Joker</p>
+                <a href="">Read</a>
+            </div>
+                                                                        <!--4Статья-->
+            <div class="tea_content_block">
+                <div class="tea_img">
+                    <img src="image/Blog4.png">
+                </div>
+                <p class ="tea_text">Tea and Caffeine: Effects on the Brain and Behavior </p>
+                <p class="author">by Author Authorius</p>
+                <a href="">Read</a>
+            </div>
+        </div>
+        <button><a href="">View all</a></button>
+    </div>
+</section>
+                                                    <!---->
+<section class="more_about_tea">
+    <div class="container">
+        <div class="title">What to Know more? </div>
+        <div class="text">Join our mailing list and stay up-to-date with the latest news, promotions, and exclusive offers from our tea store. Be the first to know about new tea arrivals, seasonal blends, and special discounts. Don't miss out on the tea-rrific perks - sign up today!</div>
+        <div class="imput field">
+            <form>
+                <label for="name"></label>
+                <input type="text" id="name" placeholder="name@email.com">
+                <label><button type="submit">Join</button></label>
+              </form>
+        </div>
+        <div class="info">
+            <input type="checkbox" checked="">We take your privacy seriously and are committed to protecting your personal information. By subscribing to our mailing list, you are consenting to receive periodic emails from us about our products, promotions, and other tea-related information.
+        </div>
+    </div>
+</section>
+<section class="prioritise_block">
+    <div class="container">
+    <div class="title">We Prioritise</div>
+    <div class="priority_list">
+<!--1пр-->
+        <div class="prioriti_content_block"></div>
+        <p class="teg">Single garden teas</p>
+        <p class="comment">Complete transparency</p>
+        <div class="icon_img">
+            <img src="image/Vector.png">
+        </div>
+<!--2пр-->
+
+        <div class="prioriti_content_block"></div>
+        <p class="teg">Only Loose leaf tea</p>
+        <p class="comment">Best Drinking Experience</p>
+        <div class="icon_img">
+            <img src="image/Vector (1).png">
+        </div>
+<!--3пр-->
+
+        <div class="prioriti_content_block"></div>
+        <p class="teg">Customer support</p>
+        <p class="comment">No bots, no automated replies</p>
+        <div class="icon_img">
+            <img src="image/Vector (2).png">
+        </div>
+<!--4пр-->
+
+        <div class="prioriti_content_block"></div>
+        <p class="teg">Fast shipping</p>
+        <p class="comment">Save, Convenient, Reliable</p>
+        <div class="icon_img">
+            <img src="image/vector3.png">
+        </div>
+</div>
+</section>
+
+<footer class="footer">
+    <section class="footer_list"> 
+        <div class="products">
+            <div class="title">Products</div>
+            <ul class="title_tea">
+                <li>Black tea</li>
+                <li>Green tea</li>
+                <li>White tea</li>
+                <li>Oolong tea</li>
+                <li>Pu-erh tea</li>
+            </ul>
+        </div>
+        <div class="company">
+            <div class="title">Company</div>
+            <ul class="title_company">
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Our Blog</li>
+                <li>FAQ</li>
+                <li>Shipping & Delivery</li>
+                <li>Refund policy</li>
+                <li>Terms of Service</li>
+            </ul>
+        </div>
+        <div class="quote">
+            <div class="quote_text">“Tea is a journey. It can take you to new places and open your mind to new experiences. Let every sip transport you to a world of wonder and possibility”
+            </div>
+            <p class="name_status">Dragomir Teodorescu, Tealuxe owner</p>
+            
+        </div>
+        <div class="feedback">
+            <div class="title">Stay In Touch</div>
+            <p class="text">Please feel free to contact us via the email of phone. We would be happy to hear from you!
+            </p>
+            <div class="logo_img">
+                <img src="image/Group 40.png" >
+            </div>
+            <div class="img_number">
+            <img src="image/icon.png" > <p>+370 680 123456</p>
+            <img src="image/icon (1).png"> <p>info@tealuxe.com</p>
+            <div class="messenger">
+                    <img src="image/icon (2).png"> 
+                    <img src="image/icon (3).png">
+                    <img src="image/icon (4).png">
+                    <img src="image/icon (5).png">
+            </div>
+            <div class="payment-icons">
+                <p>© Tealuxe, 2023</p>
+                <img src="image/Frame 25.png">
+            </div>
+            </div>
+        </div>
+
+
+
+    </section>
+</footer>
+
+
+
+        </body>
+
         </body>
 
 
